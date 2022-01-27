@@ -18,6 +18,14 @@
     overflow: auto;
   }
 
+  &__empty-message {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    font-size: 18px;
+  }
+
   button {
     margin-top: auto;
   }
